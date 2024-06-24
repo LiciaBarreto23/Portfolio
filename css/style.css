@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Orbitron:wght@400..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+
+@import 'css/nav.css';
+@import 'css/home.css';
+@import 'css/sobre.css';
+@import 'css/portfolio.css';
+@import 'css/resumo.css';
+@import 'css/contato.css';
+
+
+:root{
+  --cor-a1: #ffffff;
+  --cor-a2: #cfcfcf;
+  --cor-a3: #bbbbbb;
+  --cor-a4: #33363b;
+  --cor-a5: #000000;
+  --cor-b1: #DAA520;
+  --cor-c1: #2688E3;
+  --cor-c2: #1250B6;
+  --cor-c3: #1623DD;
+  --cor-c4: #0C147A;
+  --cor-c5: #0C147A;
+  --cor-c6: #080D14;
+
+  --fonte1: "Playfair Display SC", Times, serif;
+  --fonte2: "IBM Plex Mono", Courier, monospace;
+  --fonte3: "Orbitron", Verdana, sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+html, body{
+  overflow-x: hidden !important;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+body{
+  background-color: var(--cor-c6);
+  color: var(--cor-a2);
+  width: 100vw;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+#container{
+  width: 1200px;
+  height: 3200px;
+}
+#container-main{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--cor-a3);
+  border-radius: 10px;
+  
+}
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.section{
+  margin-bottom: 120px;
+}
+
+.subtitulo{
+  font-family: var(--fonte1);
+  font-size: 2.85rem;
+  color: var(--cor-a1);
+  position: relative;
+  padding-bottom: 5px;
+  margin-bottom: 25px;
+}
+
+.subtitulo::after{
+  content: "";
+  width: 150px;
+  height: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  background: linear-gradient(to right, var(--cor-c1), var(--cor-c4));
+}

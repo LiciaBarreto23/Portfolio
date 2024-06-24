@@ -1,0 +1,77 @@
+#contato{
+  position: relative;
+  margin-bottom: 30px;
+}
+#contato a:hover{
+  color: var(--cor-a2);
+}
+.contato-container > img{
+  position: absolute;
+  right: 150px;
+  top: 0px;
+  height: 300px;
+}
+
+.contato-container > div{
+  height: 190px;
+}
+
+.contato-container p{
+  font-family: var(--fonte2);
+  font-size: 1.125rem;
+  color: var(--cor-a2);
+  margin-bottom: 20px;
+} 
+
+.contato-item img{
+  width: 20px;
+  height: 20px;
+}
+.contato-item{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  margin-bottom: 10px;
+}
+
+.contato-item a{
+  font-family: var(--fonte2);
+  font-size: 1.125rem;
+  color: var(--cor-a1);
+}
+
+
+.redes-container{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.redes{
+  position: relative;
+}
+.redes a{
+  position: absolute;
+}
+.redes a img{
+  width: 40px;
+  height: auto;
+}
+
+.redes a:hover img{
+  transition: width 0.3s;
+  width: 42px;
+}
+
+.redes a:nth-of-type(1){
+  top: 0;
+  left: 0px;
+}
+.redes a:nth-of-type(2){
+  top: 0;
+  left: 62px;
+}
+.redes a:nth-of-type(3){
+  top: 0;
+  left: 124px;
+}
+

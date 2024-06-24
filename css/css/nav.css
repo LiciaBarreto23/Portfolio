@@ -1,0 +1,33 @@
+header{
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+  
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav{
+  display: flex;
+  gap: 20px;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.80);
+  border-radius: 10px 0px 0px 10px;
+}
+
+nav a{
+  font-family: var(--fonte2);
+  color: var(--cor-a1);
+  font-size: 1rem;
+  font-weight: 500;
+}
+nav a:hover{
+  color: var(--cor-a2);
+}
+
+.ativo{
+  color: var(--cor-b1);
+}
+.ativo:hover{
+  color: var(--cor-b1);
+}

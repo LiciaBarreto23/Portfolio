@@ -1,0 +1,67 @@
+#sobre p{
+  font-family: var(--fonte2);
+  font-size: 1.125rem;
+  color: var(--cor-a2);
+  text-indent: 20px;
+}
+#sobre p:last-of-type{
+  margin-bottom: 20px;
+}
+
+#sobre h3{
+  font-family: var(--fonte1);
+  font-size: 2rem;
+  color: var(--cor-a1);
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.comp{
+  padding-left: 40px;
+  display: grid;
+  column-gap: 10px;
+  row-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  font-family: var(--fonte2);
+  font-size: 1.125rem;
+  color: var(--cor-a1);
+}
+.comp span{
+  position: relative;
+  padding-bottom: 5px;
+}
+.comp span:after{
+  content: "";
+  height: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 5px;
+}
+
+.html::after{
+  width: 30px;
+  background: linear-gradient(to right, #FDA286, #FE7772);
+}
+.css::after{
+  width: 20px;
+  background: linear-gradient(to right, #2965F1, #1138D2);
+}
+.js::after{
+  width: 70px;
+  background: linear-gradient(to right, #FEEAA3, #FDA286);
+}
+.comun::after{
+  width: 50px;
+  background: linear-gradient(to right, #F1A7FF, #A6B0FE);
+  
+}
+.lider::after{
+  width: 40px;
+  background: linear-gradient(to right, #F37676, #EC2F2F);
+}
+.ing::after{
+  width: 90px;
+  background: linear-gradient(to right, #69CDE7, #4FFBD8);
+}
