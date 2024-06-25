@@ -1,4 +1,4 @@
-@media (width <= 1000px) {
+@media (max-width: 1000px) {
   #portfolio .projetos {
     grid-template-columns: 1fr 1fr;
   }
@@ -6,7 +6,7 @@
     right: 5px;
   }
 }
-@media (width <= 900px) {
+@media (max-width: 900px) {
   #home h6 {
     display: none;
   }
@@ -24,10 +24,10 @@
   }
 }
 
-@media (width <= 800px) {
+@media (max-width: 800px) {
 }
 
-@media (width <= 700px) {
+@media (max-width: 700px) {
   #contato .contato-container > img {
     height: 200px;
     top: 80px;
@@ -37,7 +37,7 @@
   }
 }
 
-@media (width <= 631px) {
+@media (max-width: 631px) {
   #portfolio .projetos {
     display: flex;
     flex-direction: column;
@@ -117,7 +117,7 @@
   }
 }
 
-@media (width <= 510px) {
+@media (max-width: 510px) {
   #container{
     height: max-content !important;
   }
@@ -200,7 +200,7 @@
   
 }
 
-@media (width <= 400px){
+@media (max-width: 400px){
   #container-main{
     padding-left: 20px !important;
     padding-right: 10px !important;
@@ -249,7 +249,7 @@
   
 }
 
-@media (width <= 300px){
+@media (max-width: 300px){
   #home .titulo h1 {
     font-size: 2rem;
   }
@@ -264,7 +264,7 @@
     font-size: 0.65rem;
   }
 }
-@media (width <= 230px){
+@media (max-width: 230px){
   #portfolio .img-container {
     width: 50px;
     height: 30px;
