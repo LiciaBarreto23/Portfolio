@@ -38,9 +38,7 @@ a{
   text-decoration: none;
   color: inherit;
 }
-html, body{
-  overflow-x: hidden !important;
-}
+
 img {
   max-width: 100%;
   height: auto;
@@ -52,9 +50,12 @@ body{
   color: var(--cor-a2);
   width: 100vw;
   height: max-content;
+  padding-bottom: 30px;
+  
   display: flex;
   justify-content: center;
-  padding-bottom: 30px;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 #container{
