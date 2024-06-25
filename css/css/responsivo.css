@@ -32,9 +32,12 @@
     height: 200px;
     top: 80px;
   }
+  #contato .contato-container{
+    padding-bottom: 15px;
+  }
 }
 
-@media (width <= 600px) {
+@media (width <= 631px) {
   #portfolio .projetos {
     display: flex;
     flex-direction: column;
@@ -52,7 +55,7 @@
     height: 150px;
   }
 
-  .section{
+  .section:not(:last-of-type){
     margin-bottom: 60px !important;
   }
   #home .titulo h1 {
@@ -114,7 +117,10 @@
   }
 }
 
-@media (width <= 500px) {
+@media (width <= 510px) {
+  #container{
+    height: max-content !important;
+  }
   header{
     display: none;
   }
@@ -123,7 +129,8 @@
     overflow-x: hidden !important;
   }
   #home{
-    margin-top: 20px !important;
+    margin-top: 0px !important;
+    margin-bottom: 20px !important;
   }
   #home img{
     height: 300px !important;
@@ -135,18 +142,57 @@
   #home .titulo h1 {
     font-size: 2.5rem;
   }
+  #home .titulo h1 i{
+    display: inline;
+  }
   #home .titulo p {
     font-size: 1.125rem;
-  }   
+  }  
+  .subtitulo {
+    font-size: 2rem !important;
+  } 
   #sobre .subtitulo {
     margin-top: 160px;
   }
   #sobre p {
-    font-size: 0.85rem !important;
+    font-size: 0.75rem !important;
+  }
+  #sobre h3{
+    font-size: 1.25rem !important;
   }
   #sobre .comp{
     display: flex;
     flex-direction: column;
+  }
+  #portfolio .projeto-item h4{
+    font-size: 1.125rem;
+  }
+  #portfolio .projeto-item p{
+    font-size: 0.85rem;
+  }
+  #resumo .educaçao-container h3{
+    font-size: 1.25rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  #resumo .text h4{
+    font-size: 0.85rem;
+  }
+  #resumo .text p,#resumo .text h5{
+    font-size: 0.65rem;
+  } 
+  #resumo .educaçao-container:first-of-type {
+    margin-bottom: 0px;
+  }
+  #contato .contato-container > div{
+    height: max-content;
+  }
+  #contato .contato-container p{
+    font-size: 0.85rem;
+    max-width: max-content;
+  }
+  #contato .contato-item a{
+    font-size: 0.85rem;
   }
   #resumo .detalhe{
     display: none;
@@ -154,9 +200,14 @@
   #resumo .educaçao-container h3:after{
     display: block;
   }
+  
 }
 
 @media (width <= 400px){
+  #container-main{
+    padding-left: 20px !important;
+    padding-right: 10px !important;
+  }
   #home{
     text-align: center;
   }
@@ -181,7 +232,41 @@
     font-size: 1.8rem !important;
     margin-bottom: 15px !important;
   }
-
+  #portfolio .img-container {
+    width: 100px;
+    height: 70px;
+  }
+  #portfolio .projeto-item h4{
+    font-size: 1rem;
+  }
+  #portfolio .projeto-item h4 span{
+    display: block;
+  }
+  #portfolio .projeto-item p{
+    font-size: 0.65rem;
+  }
+  
 }
 
-
+@media (width <= 300px){
+  #home .titulo h1 {
+    font-size: 2rem;
+  }
+  #home .titulo p {
+    font-size: 1rem;
+  }
+  .subtitulo {
+    font-size: 1.5rem !important;
+    margin-bottom: 5px !important;
+  } 
+  #contato .contato-item a{
+    font-size: 0.65rem;
+  }
+}
+@media (width <= 230px){
+  #portfolio .img-container {
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+  }
+}

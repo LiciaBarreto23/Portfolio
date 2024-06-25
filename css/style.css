@@ -45,13 +45,11 @@ img {
   height: auto;
   display: block;
 }
-html{
-  overflow-x: hidden;
-}
+
 body{
   background-color: var(--cor-c6);
   color: var(--cor-a2);
-  width: 100vw;
+  width: 98vw;
   height: 100%;
   padding-bottom: 30px;
   
@@ -61,7 +59,7 @@ body{
 }
 
 #container{
-  width: 1200px;
+  max-width: 1200px;
   height: 3200px;
 }
 #container-main{

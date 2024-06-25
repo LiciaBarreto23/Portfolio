@@ -20,6 +20,10 @@
   color: var(--cor-a1);
   font-size: 3.6rem;
 }
+.titulo h1 i{
+  color: var(--cor-c1);
+  display: none;
+}
 
 .titulo p{
   font-family: var(--fonte2);
