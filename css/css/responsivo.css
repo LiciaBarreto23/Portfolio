@@ -129,7 +129,7 @@
     overflow-x: hidden !important;
   }
   #home{
-    margin-top: 0px !important;
+    margin-top: 10px !important;
     margin-bottom: 20px !important;
   }
   #home img{
@@ -141,9 +141,6 @@
   }
   #home .titulo h1 {
     font-size: 2.5rem;
-  }
-  #home .titulo h1 i{
-    display: inline;
   }
   #home .titulo p {
     font-size: 1.125rem;
@@ -209,6 +206,7 @@
     padding-right: 10px !important;
   }
   #home{
+    margin-top: 0px !important;
     text-align: center;
   }
   #home img{
@@ -216,6 +214,9 @@
   }
   #home .titulo h1 span{
     display: block;
+  }
+  #home .titulo h1 i{
+    display: inline;
   }
   #home .titulo{
     padding-top: 20px;
@@ -268,5 +269,14 @@
     width: 50px;
     height: 30px;
     border-radius: 5px;
+  }
+  #contato .contato-container > img {
+    height: 150px;
+  }
+  #contato .contato-item img{
+    display: none;
+  }
+  #contato .contato-item a{
+    word-wrap: break-word;
   }
 }
