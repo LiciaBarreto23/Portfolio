@@ -1,5 +1,6 @@
 .educaçao-container{
   display: flex;
+  flex-grow: 1;
   gap: 25px;
 }
 .educaçao-container:first-of-type{
@@ -10,6 +11,19 @@
   font-size: 2rem;
   color: var(--cor-a1);
   margin-bottom: 25px;
+  position: relative;
+  padding-bottom: 3px;
+}
+.educaçao-container h3:after{
+  display: none;
+  content: "";
+  width: 80px;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  border-radius: 5px;
+  background: linear-gradient(to right, var(--cor-c1), var(--cor-c4));
 }
 .detalhe{
   display: flex;
@@ -26,10 +40,10 @@
   background-color: var(--cor-c5);
   box-shadow: -1px -1px 4px rgba(255, 255, 255, 0.20), 2px 2px 8px rgba(0, 0, 0, 0.40);
 }
-.detalhe span{
+.detalhe .linha{
   display: block;
   width: 2px;
-  height: 200px ;
+  height:80%;
   background-color: var(--cor-c5);
 }
 

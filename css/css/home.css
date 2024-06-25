@@ -27,7 +27,7 @@
   font-size: 2rem;
 }
 
-.typewriter {
+#typewriter {
   border-right: .15em solid var(--cor-b1); 
   overflow: hidden; 
   white-space: nowrap; 
@@ -46,7 +46,7 @@
   50% { border-color: var(--cor-b1); }
 }
 
-#home h6{
+h6{
   display: flex;
   flex-direction: column;
   text-align: end;
@@ -54,15 +54,15 @@
   font-family: var(--fonte3);
 }
 
-#home h6 span:nth-child(1){
+h6 span:nth-child(1){
   color: var(--cor-a1);
   font-size: 3.5rem;
 }
-#home h6 span:nth-child(2){
+h6 span:nth-child(2){
   color: var(--cor-a2);
   font-size: 2rem;
 }
-#home h6 span:nth-child(3){
+h6 span:nth-child(3){
   color: var(--cor-a1);
   font-size: 5rem;
 }

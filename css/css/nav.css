@@ -2,9 +2,7 @@ header{
   position: sticky;
   top: 0px;
   z-index: 10;
-  
-  display: flex;
-  justify-content: flex-end;
+  float: right;
 }
 
 nav{

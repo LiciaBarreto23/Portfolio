@@ -7,6 +7,7 @@
 @import 'css/portfolio.css';
 @import 'css/resumo.css';
 @import 'css/contato.css';
+@import 'css/responsivo.css';
 
 
 :root{
@@ -44,18 +45,19 @@ img {
   height: auto;
   display: block;
 }
-
+html{
+  overflow-x: hidden;
+}
 body{
   background-color: var(--cor-c6);
   color: var(--cor-a2);
   width: 100vw;
-  height: max-content;
+  height: 100%;
   padding-bottom: 30px;
   
   display: flex;
   justify-content: center;
   overflow-y: scroll;
-  overflow-x: hidden;
 }
 
 #container{
